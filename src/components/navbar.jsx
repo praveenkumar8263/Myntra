@@ -1,9 +1,9 @@
 import React from "react";
-import Logo from "../components/image/logo.png";
-import Like from "../components/image/like.png";
-import Profile from "../components/image/profile.png";
-import Cart from "../components/image/cart.png";
-import "./Styles/navber.css";
+import Logo from "../image/logo.png";
+import Like from "../image/like.png";
+import Profile from "../image/profile.png";
+import Cart from "../image/cart.png";
+import "../Styles/navber.css";
 function Navbar() {
 
   let Tags = [

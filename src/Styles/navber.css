@@ -1,8 +1,8 @@
 *
 {
-    /* margin: 0;
+    margin: 0;
     padding: 0;
-    box-sizing: border-box; */
+    box-sizing: border-box; 
     font-family: Assistant,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica,Arial,sans-serif;
 }
 
@@ -11,6 +11,8 @@
     display: flex;
     align-items: center;
     justify-content: space-around;
+    background-color: white;
+    padding: 10px;
 }
 .logo
 {
@@ -32,7 +34,7 @@
 {
     outline: none;
     /* border: 2px solid rgb(246, 241, 241); */
-    border: 1.5px solid #f769c5;
+    border: 1.5px solid rgb(247, 105, 197);
     background-color: white;
 }
 .navlist
@@ -55,7 +57,8 @@
     align-items: center;
     flex-direction: column;
 }
-.profile p{
+.profile p
+{
     font-size: 12px;
     margin-top: -3px;
     color: black;
@@ -79,5 +82,6 @@
     font-size: 14px;
     font-weight: bold;
     text-decoration: none;
-    color: rgb(86, 86, 86);
+    color: rgb(35, 35, 35);
 }
+
